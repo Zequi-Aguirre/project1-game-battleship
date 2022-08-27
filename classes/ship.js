@@ -196,7 +196,7 @@ class Ship {
     
     if (this.health - this.damage === 0) {
       this.water.forEach((elem) => {
-        // elem.classList.add('miss')
+        elem.classList.add('miss')
       });
 
       let theMsg = document.querySelector('#messageArea');
